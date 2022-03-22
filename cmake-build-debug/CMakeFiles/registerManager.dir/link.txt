@@ -1,0 +1,2 @@
+C:\Users\ZIMUQIN\mingw64\bin\ar.exe qc libregisterManager.a CMakeFiles/registerManager.dir/registerManager.cpp.obj
+C:\Users\ZIMUQIN\mingw64\bin\ranlib.exe libregisterManager.a

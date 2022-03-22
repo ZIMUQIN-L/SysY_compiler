@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Debugger"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="errors">
+				<Option output="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/liberrors.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 errors"/>
+					<CompileFile command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="errors/fast">
+				<Option output="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/liberrors.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 errors/fast"/>
+					<CompileFile command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="grammar">
+				<Option output="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/libgrammar.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 grammar"/>
+					<CompileFile command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="grammar/fast">
+				<Option output="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/libgrammar.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 grammar/fast"/>
+					<CompileFile command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debugger">
+				<Option output="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Debugger.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 Debugger"/>
+					<CompileFile command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debugger/fast">
+				<Option output="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Debugger.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 Debugger/fast"/>
+					<CompileFile command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="registerManager">
+				<Option output="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/libregisterManager.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 registerManager"/>
+					<CompileFile command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="registerManager/fast">
+				<Option output="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/libregisterManager.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 registerManager/fast"/>
+					<CompileFile command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lexical">
+				<Option output="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/liblexical.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 lexical"/>
+					<CompileFile command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lexical/fast">
+				<Option output="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/liblexical.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 lexical/fast"/>
+					<CompileFile command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MipsGeneratorClass">
+				<Option output="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/libMipsGeneratorClass.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 MipsGeneratorClass"/>
+					<CompileFile command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MipsGeneratorClass/fast">
+				<Option output="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/libMipsGeneratorClass.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 MipsGeneratorClass/fast"/>
+					<CompileFile command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="astree">
+				<Option output="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/libastree.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 astree"/>
+					<CompileFile command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="astree/fast">
+				<Option output="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/libastree.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 astree/fast"/>
+					<CompileFile command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SymTable">
+				<Option output="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/libSymTable.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 SymTable"/>
+					<CompileFile command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SymTable/fast">
+				<Option output="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/libSymTable.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/ZIMUQIN/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 SymTable/fast"/>
+					<CompileFile command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/ZIMUQIN/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/ZIMUQIN/CLionProjects/Debugger/MipsGenerator.cpp">
+			<Option target="MipsGeneratorClass"/>
+		</Unit>
+		<Unit filename="C:/Users/ZIMUQIN/CLionProjects/Debugger/MipsGenerator.h">
+			<Option target="MipsGeneratorClass"/>
+		</Unit>
+		<Unit filename="C:/Users/ZIMUQIN/CLionProjects/Debugger/SymTable.cpp">
+			<Option target="SymTable"/>
+		</Unit>
+		<Unit filename="C:/Users/ZIMUQIN/CLionProjects/Debugger/SymTable.h">
+			<Option target="SymTable"/>
+		</Unit>
+		<Unit filename="C:/Users/ZIMUQIN/CLionProjects/Debugger/astree.cpp">
+			<Option target="astree"/>
+		</Unit>
+		<Unit filename="C:/Users/ZIMUQIN/CLionProjects/Debugger/astree.h">
+			<Option target="astree"/>
+		</Unit>
+		<Unit filename="C:/Users/ZIMUQIN/CLionProjects/Debugger/error.cpp">
+			<Option target="errors"/>
+		</Unit>
+		<Unit filename="C:/Users/ZIMUQIN/CLionProjects/Debugger/error.h">
+			<Option target="errors"/>
+		</Unit>
+		<Unit filename="C:/Users/ZIMUQIN/CLionProjects/Debugger/grammar.cpp">
+			<Option target="grammar"/>
+		</Unit>
+		<Unit filename="C:/Users/ZIMUQIN/CLionProjects/Debugger/grammar.h">
+			<Option target="grammar"/>
+		</Unit>
+		<Unit filename="C:/Users/ZIMUQIN/CLionProjects/Debugger/lexical.cpp">
+			<Option target="lexical"/>
+		</Unit>
+		<Unit filename="C:/Users/ZIMUQIN/CLionProjects/Debugger/lexical.h">
+			<Option target="lexical"/>
+		</Unit>
+		<Unit filename="C:/Users/ZIMUQIN/CLionProjects/Debugger/main.cpp">
+			<Option target="Debugger"/>
+		</Unit>
+		<Unit filename="C:/Users/ZIMUQIN/CLionProjects/Debugger/registerManager.cpp">
+			<Option target="registerManager"/>
+		</Unit>
+		<Unit filename="C:/Users/ZIMUQIN/CLionProjects/Debugger/registerManager.h">
+			<Option target="registerManager"/>
+		</Unit>
+		<Unit filename="C:/Users/ZIMUQIN/CLionProjects/Debugger/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

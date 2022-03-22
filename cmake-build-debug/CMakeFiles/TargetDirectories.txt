@@ -1,0 +1,10 @@
+C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/CMakeFiles/errors.dir
+C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/CMakeFiles/grammar.dir
+C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/CMakeFiles/Debugger.dir
+C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/CMakeFiles/registerManager.dir
+C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/CMakeFiles/lexical.dir
+C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/CMakeFiles/MipsGeneratorClass.dir
+C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/CMakeFiles/astree.dir
+C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/CMakeFiles/SymTable.dir
+C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ZIMUQIN/CLionProjects/Debugger/cmake-build-debug/CMakeFiles/rebuild_cache.dir

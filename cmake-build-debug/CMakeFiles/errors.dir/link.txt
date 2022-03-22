@@ -1,0 +1,2 @@
+C:\Users\ZIMUQIN\mingw64\bin\ar.exe qc liberrors.a CMakeFiles/errors.dir/error.cpp.obj
+C:\Users\ZIMUQIN\mingw64\bin\ranlib.exe liberrors.a

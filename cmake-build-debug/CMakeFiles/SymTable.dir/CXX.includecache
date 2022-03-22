@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/ZIMUQIN/CLionProjects/Debugger/SymTable.cpp
+iostream
+-
+fstream
+-
+cstring
+-
+utility
+-
+vector
+-
+def.h
+C:/Users/ZIMUQIN/CLionProjects/Debugger/def.h
+SymTable.h
+C:/Users/ZIMUQIN/CLionProjects/Debugger/SymTable.h
+map
+-
+
+C:/Users/ZIMUQIN/CLionProjects/Debugger/SymTable.h
+def.h
+C:/Users/ZIMUQIN/CLionProjects/Debugger/def.h
+map
+-
+string
+-
+
+C:/Users/ZIMUQIN/CLionProjects/Debugger/astree.h
+def.h
+C:/Users/ZIMUQIN/CLionProjects/Debugger/def.h
+
+C:/Users/ZIMUQIN/CLionProjects/Debugger/def.h
+astree.h
+C:/Users/ZIMUQIN/CLionProjects/Debugger/astree.h
+

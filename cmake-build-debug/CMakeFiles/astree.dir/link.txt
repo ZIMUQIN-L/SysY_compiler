@@ -1,0 +1,2 @@
+C:\Users\ZIMUQIN\mingw64\bin\ar.exe qc libastree.a CMakeFiles/astree.dir/astree.cpp.obj
+C:\Users\ZIMUQIN\mingw64\bin\ranlib.exe libastree.a

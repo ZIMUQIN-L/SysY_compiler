@@ -1,0 +1,2 @@
+C:\Users\ZIMUQIN\mingw64\bin\ar.exe qc liblexical.a CMakeFiles/lexical.dir/lexical.cpp.obj
+C:\Users\ZIMUQIN\mingw64\bin\ranlib.exe liblexical.a

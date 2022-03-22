@@ -1,0 +1,24 @@
+0 d 1
+0 hhh 3
+1 i 3
+1 c 4
+delete 1 i 3
+delete 1 c 4
+1 i 16
+1 j 16
+1 k 20
+1 n 21
+delete 1 n 21
+delete 1 k 20
+delete 1 j 16
+delete 1 i 16
+delete in 2 i 0
+delete in 2 i 0
+delete in 1 i 0
+delete in 1 c 4
+delete in 2 i 0
+delete in 2 i 0
+delete in 1 n 12
+delete in 1 k 8
+delete in 1 j 4
+delete in 1 i 0

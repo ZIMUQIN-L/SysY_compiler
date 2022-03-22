@@ -1,0 +1,2 @@
+C:\Users\ZIMUQIN\mingw64\bin\ar.exe qc libSymTable.a CMakeFiles/SymTable.dir/SymTable.cpp.obj
+C:\Users\ZIMUQIN\mingw64\bin\ranlib.exe libSymTable.a

@@ -1,0 +1,104 @@
+VAR d  
+ASSIGN d 4 
+CALL main  
+INTFUNCTION hhh  
+PARA int i 
+LBRACE   
+VAR c  
+MULT #t0 i i
+ASSIGN c #t0 
+CMP i 1 new_label1
+GOTO new_label0  
+LABEL new_label0  
+LBRACE   
+ASSIGN #RET 1 
+RETURN   
+RBRACE   
+LABEL new_label1  
+CMP i 2 new_label3
+GOTO new_label2  
+LABEL new_label2  
+LBRACE   
+ASSIGN #RET 2 
+RETURN   
+RBRACE   
+LABEL new_label3  
+MULT #t1 c c
+MOD #t2 #t1 10
+ASSIGN c #t2 
+BEFOREPUSH   
+SUB #t3 i 1
+PUSH #t3  
+CALL hhh  
+ENDCALL   
+ASSIGN #t4 #RET 
+BEFOREPUSH   
+SUB #t5 i 2
+PUSH #t5  
+CALL hhh  
+ENDCALL   
+ASSIGN #t6 #RET 
+ADD #t7 #t4 #t6
+ASSIGN #RET #t7 
+RETURN   
+RBRACE   
+ENDFUNCTION   
+INTFUNCTION main  
+LBRACE   
+VAR i  
+ASSIGN i 2 
+VAR j  
+ASSIGN j 5 
+GETINT #t8  
+ASSIGN i #t8 
+GETINT #t9  
+ASSIGN j #t9 
+BEFOREPUSH   
+BEFOREPUSH   
+PUSH 3  
+CALL hhh  
+ENDCALL   
+ASSIGN #t10 #RET 
+PUSH #t10  
+CALL hhh  
+ENDCALL   
+ASSIGN #t11 #RET 
+SUB #t12 41440 #t11
+ADD #t13 #t12 -10091
+ASSIGN j #t13 
+VAR k  
+MULT #t16 -1 5
+MULT #t14 -1 #t16
+ASSIGN k #t14 
+VAR n  
+ASSIGN n 10 
+LABEL new_label4  
+MULT #t17 k k
+MULT #t18 #t17 k
+MULT #t19 #t18 k
+MULT #t20 #t19 k
+MULT #t21 #t20 k
+BLT #t22 n #t21
+CMP #t22 new_label6 $$none
+GOTO new_label5  
+LABEL new_label5  
+LBRACE   
+MULT #t23 d d
+MOD #t24 #t23 10000
+ASSIGN d #t24 
+ADD #t25 n 1
+ASSIGN n #t25 
+RBRACE   
+GOTO new_label4  
+LABEL new_label6  
+PRINTVAR i  
+PRINTSTR ,  
+PRINTSTR    
+PRINTVAR j  
+PRINTSTR ,  
+PRINTSTR    
+PRINTVAR k  
+PRINTSTR \n  
+ASSIGN #RET 0 
+RETURN   
+RBRACE   

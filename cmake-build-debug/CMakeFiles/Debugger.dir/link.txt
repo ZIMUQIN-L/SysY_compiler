@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Debugger.dir/objects.a
+C:\Users\ZIMUQIN\mingw64\bin\ar.exe cr CMakeFiles\Debugger.dir/objects.a @CMakeFiles\Debugger.dir\objects1.rsp
+C:\Users\ZIMUQIN\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Debugger.dir/objects.a -Wl,--no-whole-archive -o Debugger.exe -Wl,--out-implib,libDebugger.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Debugger.dir\linklibs.rsp

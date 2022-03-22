@@ -1,0 +1,2 @@
+C:\Users\ZIMUQIN\mingw64\bin\ar.exe qc libgrammar.a CMakeFiles/grammar.dir/grammar.cpp.obj
+C:\Users\ZIMUQIN\mingw64\bin\ranlib.exe libgrammar.a
